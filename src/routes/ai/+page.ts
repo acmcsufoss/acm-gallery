@@ -2,7 +2,7 @@ import type { PageLoadEvent } from './$types';
 import type { Gallery } from '$lib/public/gallery';
 
 export async function load({ fetch }: PageLoadEvent) {
-  const type = 'home'; // Define the type you want to pass
+  const type = 'ai'; // Define the type you want to pass 
   const response = await fetch(`/api/files?type=${encodeURIComponent(type)}`); // Add query parameter
 
   if (!response.ok) {

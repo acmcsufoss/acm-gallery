@@ -8,10 +8,10 @@
 </script>
   
 <svelte:head>
-  <title>Gallery | Game Dev</title>
+  <title>Gallery | Design</title>
 </svelte:head>
 
-<h1>Game Dev</h1>
+<h1>Design</h1>
 <section class="gallery">
   {#if galleryItems.length > 0}
     {#each galleryItems as item (item.id)}
