@@ -2,12 +2,12 @@
 
 ## Developing
 
-You can clone this repository from your command line by copying the repository link: <br>
+You can clone this repository from your command line by copying the repository link:
 ```bash 
-https://github.com/tylermlui/gallery-acm.git
+https://github.com/acmcsufoss/acm-gallery.git
 ```
 <br>
-Once you've copied the repository link you can then run the clone command:<br>
+Once you've copied the repository link you can then run the clone command:
 
 ```bash
 git clone https://github.com/tylermlui/gallery-acm.git
