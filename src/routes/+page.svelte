@@ -7,3 +7,9 @@
 <style>
     @import '../styles.css';
 </style>
+
+<script lang="ts">
+    export let data;
+
+    data
+</script>
