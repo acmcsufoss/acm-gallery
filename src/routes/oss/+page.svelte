@@ -18,7 +18,7 @@
       <iframe
         src="https://drive.google.com/file/d/{item.id}/preview"
         title="Embedded Document"
-        width="640"
+        width="500"
         height="480"
         allow="autoplay"
         loading="lazy"
@@ -42,11 +42,14 @@
     justify-content: center;
     padding: 100px 0;
   }
-  @media (max-width: 640px) {
+  @media (max-width: 500px) {
     iframe {
       margin: 1em;
       height: 280px;
     }
+  }
+  h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 </style>
   
