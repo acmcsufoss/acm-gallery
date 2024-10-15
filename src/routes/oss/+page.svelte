@@ -11,7 +11,7 @@
   <title>Gallery | OSS</title>
 </svelte:head>
 
-<h1>OSS</h1>
+<h1>Open Source Software</h1>
 <section class="gallery">
   {#if galleryItems.length > 0}
     {#each galleryItems as item (item.id)}
@@ -30,6 +30,10 @@
 </section>
 
 <style>
+  h1{
+    font-size: 5rem;
+    text-align: center;
+  }
   .gallery {
     display: flex;
     flex-wrap: wrap;
