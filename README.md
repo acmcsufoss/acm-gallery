@@ -10,7 +10,7 @@ https://github.com/acmcsufoss/acm-gallery.git
 Once you've copied the repository link you can then run the clone command:
 
 ```bash
-git clone https://github.com/tylermlui/gallery-acm.git
+git clone https://github.com/acmcsufoss/gallery-acm.git
 ```
 <br>
 You can then go to the directory of the project with the cd command: <br>
