@@ -1,21 +1,20 @@
 <script lang="ts">
-  import type { PageData } from './$types';
+  import type { PageData } from '../$types';
 
   export let data: PageData;
   
   const galleryItems = data.gallery || [];
 
 </script>
-
+  
 <svelte:head>
-  <title>Gallery | ACM at CSUF</title>
+  <title>Gallery | ICPC</title>
 </svelte:head>
 
-<!-- TODO: Get random images for base route. -->
-<h1>ACM Gallery</h1>
+<h1>ICPC</h1>
 <section class="gallery">
   {#if galleryItems.length > 0}
-    {#each data.gallery as item (item.id)}
+    {#each galleryItems as item (item.id)}
       <iframe
         src="https://drive.google.com/file/d/{item.id}/preview"
         title="Embedded Document"
@@ -26,8 +25,8 @@
       />
     {/each}
   {:else}
-  <p>No pictures here yet! 😔 </p>
-{/if}
+    <p>No pictures here yet! 😔 </p>
+  {/if}
 </section>
 
 <style>
@@ -46,3 +45,4 @@
     }
   }
 </style>
+  
