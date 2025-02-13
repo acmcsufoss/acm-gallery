@@ -13,6 +13,7 @@
 
 <!-- TODO: Get random images for base route. -->
 <h1>ACM Gallery</h1>
+<p> Here we will store pictures taken by the marketing team!!</p>
 <section class="gallery">
   {#if galleryItems.length > 0}
     {#each data.gallery as item (item.id)}
